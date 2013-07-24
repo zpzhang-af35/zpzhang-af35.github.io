@@ -5,6 +5,11 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
+<div class="hero-unit">
+  <h1>我真的是个菜鸟</h1>
+  <p>很菜很菜的鸟......</p>
+</div>
+
 <ul class="posts js-masonry" id="container" data-masonry-options='{ "columnWidth": 100, "itemSelector": ".item" }'>
   {% for post in site.posts %}
     <li class='item w2'><span>{{ post.date | date_to_string }}</span> &raquo; 
