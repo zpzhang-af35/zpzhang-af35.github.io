@@ -42,6 +42,7 @@ html > body {
 p {
 	margin: 0 0 1.5em 0;
 	text-align: justify;
+	text-shadow: 4px 4px 5px #ddd
 }
 
 a {
