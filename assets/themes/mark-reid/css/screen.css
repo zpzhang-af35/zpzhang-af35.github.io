@@ -106,10 +106,6 @@ sup {
 	-moz-box-shadow: 2px 2px 8px #aaa;
 }
 
-#disqus_thread {
-	padding-top: 0;
-}
-
 /* TODO
  #page { counter-reset: section; }
  #page h2:before {
@@ -469,6 +465,7 @@ pre > code {
 /* @group Disqus */
 #disqus_thread {
 	margin-top: 2.93em;
+	padding-top:30px;
 }
 .dsq-comment-body {
 	text-align: justify;
@@ -716,8 +713,4 @@ img.maruku-png {
 table, th, td {
 	border: 1px solid black;
 	padding: 5px;
-}
-
-#disqus_thread{
-	padding-top:30px;
 }
