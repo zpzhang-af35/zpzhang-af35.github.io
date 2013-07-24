@@ -5,6 +5,8 @@ description: "这是弄啥的？"
 category: doctrine
 tags: [doctrine, many-to-many, attribute]
 ---
+此文讨论给doctrine的多对多关系属性的问题。
+
 ## 一，废话
 这两天处理工作里的一个问题。订单，和订单里的商品之间的一个关系。要是直接设计数据库，反而简单些。但是我们用的是doctrine处理的，于是，麻烦了一些。
 
