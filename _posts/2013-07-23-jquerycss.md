@@ -2,8 +2,8 @@
 layout: post
 title: "jquery读取CSS属性的百分值"
 description: ""
-category: 
-tags: []
+category: jquery
+tags: [jquery, css]
 ---
 今天在做东西的时候，遇到一个要修改progressbar长度的这么一个东西，但是bootstrap里的bar，属性是用百分值表示的，略悲剧啊。
 
