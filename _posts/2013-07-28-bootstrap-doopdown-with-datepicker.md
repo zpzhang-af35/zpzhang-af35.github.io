@@ -12,21 +12,5 @@ tags: [bootstrap, datepicker]
 于是解决方案如下：在click事件到达document之前它不在往上冒。因为datepicker的div是动态添加的，绑定事件有困难，所以直接在他的父级<body>上绑定。然后分析事件来源，当是来自datepicker内部元素是，不再冒泡。因为在body接到click之前，datepicker自己已经完成他的事儿了。所以不影响什么。
 
 代码如下：
-<pre>
-	$('body').on('click', function(e) {
-      var classes = [
-          'day',
-          'prev',
-          'next',
-          'icon-arrow-left',
-          'icon-arrow-right',
-          'datepicker-switch',
-          'month',
-          'year'
-      ];
-      if ($.inArray($(e.target).attr('class'), classes) >= 0) {
-          e.stopPropagation();
-    }
-	});
-</pre>
+
 {% include JB/setup %}
