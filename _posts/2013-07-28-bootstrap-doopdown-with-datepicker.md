@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "bootstrap dropdown with datepicker"
+title: "bootstrap doopdown with datepicker"
 description: ""
 category: bootstrap
 tags: [bootstrap, datepicker]
