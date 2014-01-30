@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SASS & LESS : compare and resume"
+title: "SASS and LESS : compare and resume"
 description: ""
 category: 
 tags: []
