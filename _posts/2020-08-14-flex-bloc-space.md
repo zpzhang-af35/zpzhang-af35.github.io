@@ -38,4 +38,6 @@ CSS部分
 
 因为三个空16px一共48px，所以一个元素需要在50%基础上贡献24px喽。
 
+附上效果演示：http://jsrun.net/3NLKp/
+
 {% include JB/setup %}
